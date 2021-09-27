@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Formulario Macabros</title>
+    <link href="../CSS/primerCSS.css" rel="stylesheet">
+</head>
+
+<body background="../imagenes/fondo2.jpg">
+    <h1 align="center">Formulario</h1>
+    <a href="../index.html">
+        <img id="imagen1" src="../imagenes/home.png"
+        width="80px" 
+        height="80px">
+    </a>
+    <div align="center">
+        <form action="Fin.html">
+            <p>Nombres:<input type="text" name="firstname" placeholder="Solo Nombre/s" size="30px" maxlength="55"></p>
+            <p>Apellidos:<input type="text" name="lastname" placeholder="Solo Apellidos" size="30px" maxlength="55"></p>
+            <p>Tu Correo Electronico:<input type="email" name="email" placeholder="Correo*" size="30px" maxlength="255"></p>
+            <p>Experiencia laboral:<textarea name="message" rows="10" cols="30" style="margin: 0px; width: 240px; height: 15px;" maxlength="255"></textarea></p>
+            <p>Estudios:<textarea name="message" rows="10" cols="30" style="margin: 0px; width: 240px; height: 15px;" maxlength="255"></textarea></p>
+            <p>Sexo:<input type="radio" name="Sexo" value="hombre"> Hombre
+                <input type="radio" name="Sexo" value="mujer"> Mujer</p>
+            <p>
+                <input type="file" name="adjunto" accept=".pdf,.jpg,.png" multiple><br>
+                <input type="submit" value="Enviar">
+                <input type="reset" name="limpiar" value="Borrar datos del formulario" />
+                <input type="button" name="guardar" value="Guardar Cambios" />
+            </p>
+
+        </form>
+
+    </div>
+
+</body>
+</html>
